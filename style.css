@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #0E101D;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #0E101D;
+    z-index: 3;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-haeder {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.header-option1 {
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+    background-color: #232028;
+}
+
+.Naruto {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.option-start1 {
+    background-color: #232028;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+    width: 130px;
+    color: white;
+}
+
+.list-option1 {
+    width: 130px;
+    background: black;
+    border-radius: 10px;
+    color: white;
+}
+.list-option1:focus {
+    width: 130px;
+    background: #BFAFF2;
+    border-radius: 10px;
+    color: black;
+}
+
+.left-haeder h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.right-header h3:nth-child(1) {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+.right-header h3:nth-child(2) {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: black;
+    background-color: #BFAFF2;
+    padding: 9px 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+main {
+    background-color: #101220;
+}
+
+.showcase-heros {
+    padding-top: 418px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero1 {
+    position: relative;
+    width: 325px;
+    height: 240px;
+    border-radius: 32px;
+    background-color: #232028;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.gojo {
+    position: absolute;
+    top: -270px;
+}
+
+.hero1 h2 {
+    margin-top: 59px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: white;
+    text-align: center;
+}
+
+.hero1 p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: white;
+    text-align: center;
+    width: 280px;
+}
+
+.in-hero1 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #0E101D;
+    padding-top: 136px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left-footer {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+}
+
+.right-footer {
+    display: flex;
+    gap: 40px;
+}
+
+.right-footer {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+}
